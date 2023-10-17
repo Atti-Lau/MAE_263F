@@ -10,8 +10,8 @@ runExplicit = true; %set this flag to run explicit solver
 N = 3; %# of nodes
 nDOF = N*2; %for 2D
 
-dtIm = .1; %implicit timestep
-dtEx = 1e-4; %explicit timestep
+dtIm = .01; %implicit timestep
+dtEx = 1e-5; %explicit timestep
 
 totalTime = 10; %in seconds
 %---problem parameters---
